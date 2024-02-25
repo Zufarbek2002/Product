@@ -10,11 +10,16 @@ function Header() {
         <h1 className="header__logo_text">Product</h1>
       </div>
 
-      <div className="icons">
+      <label htmlFor="check" className="icons icons_open">
         <i className="fa-solid fa-bars fa-2xl menu_bar"></i>
-      </div>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <label htmlFor="check" className="parda"></label>
 
       <ul className="header__nav">
+        <label htmlFor="check" className="icons icons_close">
+        <i className="fa-solid fa-xmark fa-2xl menu_bar"></i>
+        </label>
         <li className="header__list">
           <a href="#" className="header__link header__link--active">
             Product

@@ -4,6 +4,7 @@ import Product from './components/product/Product';
 import Strategy from './components/strategy/Strategy';
 import Price from './components/price/Price';
 import Client from './components/prclient/Client';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Strategy />
       <Price />
       <Client />
+      <Footer />
     </div>
   )
 }
