@@ -1,0 +1,143 @@
+.price__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    text-align: center;
+}
+
+.price__title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+}
+
+.price__sub_title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.price__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.price__card_title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.price__card_sub_title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.price__text {
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.20000000298023224px;
+    color: #02897A;
+}
+
+.price__icon {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #02897A;
+}
+
+.price__mon {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.10000000149011612px;
+    color: #AFAFAF;
+}
+
+.price__card_type {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.price__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.price__card {
+    width: 100%;
+    max-width: 323.04px;
+    box-shadow: 0px 2px 8px 0px #00000040;
+    padding: 24px 0 32px;
+    border-radius: 8px;
+
+    &:hover {
+        transition: all .6s ease;
+        background-color: #02897A;
+        color: #fff;
+
+        .price__text {
+            transition: all .6s ease;
+            color: #fff;
+        }
+
+        .price__icon {
+            transition: all .6s ease;
+            color: #fff;
+        }
+
+        .price__mon {
+            transition: all .6s ease;
+            color: #E0E0E0;
+        }
+
+        .price__btn {
+            transition: all .6s ease;
+            background-color: #fff;
+            color: #02897A;
+        }
+    }
+}
+
+.price__text_box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.price__box_text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+}
+
+.price__btn {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+    background-color: #02897A;
+    border-radius: 8px;
+    padding: 11px 18px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 38px;
+}
+
+@media screen and (max-width:920px) {
+    .price__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
